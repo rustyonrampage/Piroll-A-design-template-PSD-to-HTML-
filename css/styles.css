@@ -1,0 +1,98 @@
+/* color codes
+ black: #333333
+ greenish-blue: #00cccc
+ greish: #666666
+ */
+
+
+*{margin: 0; padding:0;}
+html{
+    font-size: 16px;
+}
+
+.pr-header{
+    height: 41.875rem;
+    padding: 0px;
+
+}
+
+.pr-navBar{
+    height: 5.625rem;
+    margin: 0; 
+    padding-left: 6.1875rem;
+    padding-right: 4.8125rem;
+
+ 
+    
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: .15rem;
+    color: #333 !important;
+
+    padding: 0px !important;
+    margin-right: 2rem; 
+}
+
+.nav-link:hover{
+    color:  #00cccc!important;
+}
+.active .nav-link{
+    color:  #00cccc!important;
+}
+.pr-logo{
+    height: 1.9375rem;
+    width: 1.5625rem;
+    object-fit: contain;
+}
+
+.pr-headerContent{
+    width: 30rem;
+    margin-right: 9.5rem;
+    padding-top: 8.25rem
+
+}
+
+.pr-headerContent p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #666666 !important;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: .00005625rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+
+}
+
+.pr-headerContent h3{
+    font-size: 2.375rem;
+    letter-spacing: .00005625rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.pr-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75rem; font-weight: 600;
+    letter-spacing: .15rem; 
+
+    width: 11.25rem;
+    height: 3.375rem; 
+    background-color: #00cccc;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.pr-button:focus{
+    outline: none;
+    box-shadow: none;
+}
+.pr-button:hover{
+    box-shadow:  0.0625rem 0.0625rem 0.3125rem #333 
+}
