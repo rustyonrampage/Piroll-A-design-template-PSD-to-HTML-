@@ -243,5 +243,62 @@ html{
 }
 .pr-ourWorks--button:hover{
     text-decoration: none;
-    color: #00cccc;
+    color: #00cccc  ;
+}
+.pr-workProcess{
+    height: 58rem; 
+}
+
+.pr-workProcess-div h3{
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.01875rem;
+    font-size: 1.875rem;
+    line-height: 1;
+    margin-bottom: 2.5rem; 
+}
+.pr-workProcess-div p{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    color: #333;
+    font-size: 1rem;
+    letter-spacing: .005rem;
+    margin-bottom: 3.625rem;
+    width: 31.5625rem;
+    text-align: center
+}
+
+.pr-workProcess{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pr-workProcess-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pr-wordPress-player{
+    width: 73.125rem;
+    height: 35.6875rem;
+    background-color: #e9e9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.pr-playIcon{
+    background-color: #00cccc;
+    border-radius: 50%;
+    height: 5.3125rem;
+    width: 5.3125rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
