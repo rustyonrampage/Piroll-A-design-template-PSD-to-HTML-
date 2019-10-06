@@ -13,7 +13,11 @@ html{
 .pr-header{
     height: 41.875rem;
     padding: 0px;
-
+    border-radius: 0px ;
+    -webkit-border-radius: 0px ;
+    -moz-border-radius: 0px ;
+    -ms-border-radius: 0px ;
+    -o-border-radius: 0px ;
 }
 
 .pr-navBar{
@@ -21,9 +25,6 @@ html{
     margin: 0; 
     padding-left: 6.1875rem;
     padding-right: 4.8125rem;
-
- 
-    
 }
 
 .nav-link{
@@ -95,4 +96,34 @@ html{
 }
 .pr-button:hover{
     box-shadow:  0.0625rem 0.0625rem 0.3125rem #333 
+}
+
+.pr-aboutUs{
+    height: 26.125rem
+}
+.pr-aboutUs h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.875rem;
+    font-weight: 600;
+    letter-spacing: 0.01875rem;
+    margin-bottom: 2.5rem;
+    line-height: 1
+}
+
+.pr-aboutUs p{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1rem; 
+    text-align: center;
+    color: #666666;
+
+    width: 39rem;
+    letter-spacing: 0.009375rem;
+    margin-bottom: 2.375rem;
+}
+
+.pr-aboutUs img{
+    width: 14rem;
+    height: 3.5625rem;
+    object-fit: contain
 }
