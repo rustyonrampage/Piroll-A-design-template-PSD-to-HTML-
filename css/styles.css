@@ -167,3 +167,42 @@ html{
 .pr-progressBar{
     background-color: #00cccc
 }
+
+.pr-projectsCompletion{
+    height: 15rem;
+    background-color: #00cccc;
+    color: #fff;
+}
+
+.pr-projectsCompletion-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 17rem;
+    margin-right: 6.25rem;
+
+}
+.pr-projectsCompletion-item div{
+    display: flex; 
+    flex-direction: column;
+    margin-left: 1.8125rem;
+}
+
+.pr-projectsCompletion-item img{
+    height: 2.8125rem;
+    width: 3.125rem;
+}
+.pr-projectsCompletion-item--number{
+    font-size: 1.125rem;
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.03375rem; line-height: 1;
+    margin-bottom: 1rem;
+}
+.pr-projectsCompletion-item--label{
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: .75rem;
+    letter-spacing: .15rem; 
+    line-height: 1
+}
