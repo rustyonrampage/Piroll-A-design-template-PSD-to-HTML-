@@ -1,7 +1,7 @@
 /* color codes
  black: #333333
  greenish-blue: #00cccc
- greish: #666666
+ greish: # 
  */
 
 
@@ -126,4 +126,44 @@ html{
     width: 14rem;
     height: 3.5625rem;
     object-fit: contain
+}
+
+.pr-professionalSkills{
+    height: 35.625rem;
+}
+
+.pr-professionalSkills > div:nth-child(1){
+    background-color: #f8f9f9;
+}
+
+.pr-professionalSkills > div:nth-child(2){
+    background-color: #e9e9e9;
+}
+.pr-professionalSkills--container{
+    width: 73%;
+}
+
+.pr-professionalSkills--container h3{
+    font-size: 1.875rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.01875rem;
+    font-weight: 600; line-height: 1;
+
+    margin-bottom: 2.375rem;
+}
+.pr-professionalSkills--container span{
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: .75rem;
+    letter-spacing: .15rem; 
+    color: #000000;
+    line-height: 1;
+    margin-bottom: 1.25rem;
+    display: block
+}
+.pr-professionalSkills--item{
+    margin-bottom: 2.5625rem;
+}
+.pr-progressBar{
+    background-color: #00cccc
 }
