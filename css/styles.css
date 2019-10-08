@@ -302,3 +302,97 @@ html{
     justify-content: center;
     align-items: center;
 }
+
+.pr-badgesSection{
+    background-color: #f5f5f5;
+    height: 33.4375rem;
+}
+.pr-badgeSection-container{
+    width: 73.125rem;
+}
+.pr-badgeItem{
+    width: 14.75rem; 
+    margin-right: 4.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pr-badgeItem h6{
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 0.075rem;
+    color: #000;
+    margin-bottom: 1.25rem;
+}
+
+.pr-badgeItem p{
+    font-family: "Nunito Sans", sans-serif;
+    color: #666666;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.005rem;
+    text-align: center;
+}
+.pr-badgeItem img{
+    margin-bottom: 1.5625rem
+}
+
+.pr-quoteSection{
+    height: 31.25rem;
+}
+.pr-quoteCarousal{
+    background-color: #00cccc
+}
+
+.pr-carouselItem{
+    height: 100%;
+   
+}
+.pr-carouselItem div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 52rem;
+    align-items: center;
+}
+.pr-carouselItem p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: .015rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2.1875rem; 
+}
+.pr-carouselItem span{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: .75rem;
+
+    letter-spacing: .075rem;
+}
+.pr-navCircles{
+    margin-bottom: 3.75rem !important;
+    align-items: center;
+}
+.pr-navCircles li{
+    height: .375rem;
+    width: .375rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.pr-navCircles .active{
+    height: .625rem;
+    width: .625rem;
+    border-radius: 50% ;
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50% ;
+    -ms-border-radius: 50% ;
+    -o-border-radius: 50% ;
+}
