@@ -396,3 +396,14 @@ html{
     -ms-border-radius: 50% ;
     -o-border-radius: 50% ;
 }
+
+.pr-clientLogos{
+    height: 12.5rem;
+}
+.pr-clientLogos-container{
+    width: 68.625rem;
+}
+
+.pr-clientLogos-container img{
+    object-fit: contain
+}
