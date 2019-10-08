@@ -495,5 +495,62 @@ html{
 .pr-contactForm button:hover{
     background-color: #00cccc !important;
     box-shadow:  0rem 0.0625rem 0.3125rem #333  !important
+}
 
+.pr-footerSection{
+    background-color: #141414;
+    height: 17.75rem; color: #fff;
+   
+}
+.pr-footerSection-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+}
+.pr-footerSection-left{
+    width: 40%;
+}
+.pr-footerSection-leftItem h3{
+    font-size: 1.125rem;
+    letter-spacing: .01125rem;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600
+}
+.pr-footerSection-leftItem p{
+    font-size: 0.9175rem;
+    letter-spacing: .0046875rem;
+
+    font-family: "Nunito Sans", sans-serif !important;
+    font-weight: 300;
+    color: #cccccc
+}
+.pr-footerSection-right{
+    width: 60%
+}
+.pr-footerSection-right--emailPhone{
+    font-size: 0.9175rem;
+    letter-spacing: .0046875rem;
+
+    font-family: "Nunito Sans", sans-serif !important;
+    font-weight: 300;
+    color: #cccccc
+}
+.pr-footerSection-right--links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.pr-footerSection-right--links div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.5rem
+}
+.pr-footerSection-right--links div a{
+    color: white !important;
+    text-decoration: none !important;
+}
+.pr-footerSection-right--links div a:hover{
+    color: #00cccc !important;
+    text-decoration: none !important;
 }
